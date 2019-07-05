@@ -1,4 +1,4 @@
-package com.rmakiyama.ohtenkiapp.ui.main
+package com.rmakiyama.ohtenkiapp.ui.weather
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,17 +7,16 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.rmakiyama.ohtenkiapp.R
 
-class MainFragment : Fragment() {
+class WeatherFragment : Fragment() {
 
     companion object {
-        fun newInstance() = MainFragment()
+        fun newInstance() = WeatherFragment()
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        return inflater.inflate(R.layout.fragment_weather, container, false)
     }
-
 }

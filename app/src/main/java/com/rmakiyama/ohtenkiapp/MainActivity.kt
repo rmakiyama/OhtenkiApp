@@ -2,7 +2,7 @@ package com.rmakiyama.ohtenkiapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.rmakiyama.ohtenkiapp.ui.main.MainFragment
+import com.rmakiyama.ohtenkiapp.ui.weather.WeatherFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, MainFragment.newInstance())
+                .replace(R.id.container, WeatherFragment.newInstance())
                 .commitNow()
         }
     }
