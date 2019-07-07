@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!--  weather background colors  -->
+    <color name="background_sunny">#40C4FF</color>
+    <color name="background_cloudy">#E0E0E0</color>
+    <color name="background_rainy">#607D8B</color>
+
 </resources>
